@@ -1,6 +1,6 @@
 /* Colors
-  blue #4484CE
-  orange #F19F4D
+  teal #4ABDAC
+  orange #FC4A1A
   yello accent #F9CF00
   grey #D9D9D9
 */
@@ -18,7 +18,7 @@ body {
 }
 
 .blue-text {
-  color: #4484CE;
+  color: #4ABDAC;
 }
 
 
@@ -36,7 +36,7 @@ body {
   margin-top: 13px;
   margin-bottom: 13px;
   font-size: 30px;
-  color: #F19F4D;
+  color: #FC4A1A;
 }
 
 .navbar li {
@@ -45,7 +45,7 @@ body {
 }
 
 .navbar-default {
-  background-color: white;
+  background-color: #DFDCE3;
   border-color: #080808;
 }
 
@@ -73,9 +73,9 @@ body {
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle {
-  background-color: #4484CE;
+  background-color: #4ABDAC;
   color: rgba(255, 255, 255, 0.7);
-  border-color: #4484CE;
+  border-color: #4ABDAC;
 }
 
 .btn:hover .caret, .btn:focus .caret, .btn:active .caret, .btn.active .caret, .open > .btn.dropdown-toggle .caret {
@@ -109,7 +109,7 @@ h1 {
 .section-blue {
   padding: 30px 0;
   position: relative;
-  background-color: #4484CE;
+  background-color: #4ABDAC;
   background-image: linear-gradient;
   text-align: center;
   color: white;
@@ -137,7 +137,7 @@ h1 {
 
 
 .footer-blue {
-  background-color: #4484CE;
+  background-color: #4ABDAC;
   color: white;
   list-style: none;
 }
@@ -163,13 +163,13 @@ h1 {
 
 .orange-title h1 {
   font-size: 2.5em;
-  color: #F19F4D;
+  color: #FC4A1A;
   margin-bottom: 40px;
 }
 
 .blue-title h1 {
   font-size: 2.5em;
-  color: #4484CE;
+  color: #4ABDAC;
   margin-bottom: 40px;
 }
 
