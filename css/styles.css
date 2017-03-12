@@ -1,0 +1,89 @@
+/* Colors
+  blue #4484CE
+  orange #F19F4D
+  yello accent #F9CF00
+
+*/
+
+/*            Font             */
+
+
+
+/*            Nav Bar             */
+.navbar{
+    border: 0 none;
+    transition: all 0.4s;
+    font-size: 14px;
+}
+
+.navbar .navbar-brand {
+    font-weight: 200;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 30px;
+    color: #F19F4D;
+}
+
+.navbar li {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.navbar-default {
+    /*background-color: #000000;*/
+    border-color: #080808;
+}
+
+
+/*            Body             */
+
+.landing-header {
+    background-size: cover;
+    min-height: 800px;
+}
+
+.landing-header .header-title {
+    padding-top: 8%;
+    text-align: left;
+    z-index: 3;
+    font-size: 40px;
+    color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+body {
+
+  color: #66615b;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+.section-blue {
+    padding: 30px 0;
+    position: relative;
+    background-color: #4484CE;
+    background-image: linear-gradient(to bottom,
+    text-align: center;
+    color: white;
+    }
+
+
+.btn, .navbar .navbar-nav > li > a.btn {
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 18px;
+    border-color: #66615B;
+    color: #66615B;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
