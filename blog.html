@@ -53,9 +53,23 @@
             <h2 class="text-center">Sitecast Cover Letter</h2><br>
             <p class="text-justify">I’m excited to submit my application for the internship at Sitecast. Your mission to build tools that can help everyone use web based technology, makes Sitecast seem like the perfect place for a web development internship.  The to ability to design and build tools that can help people use technology, is something I'm passionate about, and a big motivation for me to pursue this career. I would love the opportunity to learn about your platform and further my knowledge of cloud based applications at your company.<br><br>Prior to pursuing my interest in programming, I started my career working at a small start-up called ForteBio. The company builds laboratory instrumentation used in biotech drug development and I worked in the quality control laboratory, testing products and analyzing data.  During that time, I gained a lot of experience in a challenging and fast paced environment; and while I was there, it grew from a from a small start-up to a successful life science tools provider. I’m confident that I contributed to this success by helping deliver high quality products to customers. Through my experience analyzing data and creating complex spreadsheet formulas, and much more, I came to recognize the importance and power that programing could achieve. I began to teach myself some programing basics with online tutorials and experimentation and quickly found that I enjoyed coding.<br><br>I took the plunge and signed up for the Ruby/JavaScript/Rails intensive course at Epicodus. Since then I have spent almost every day building web apps, diving into the details of development tools, and learning how to work with others to bring complex ideas to life.  During this time I have built a number things that I am proud of, such as an app that uses the Twitter API to translate and send tweets or an Angular 2 app that uses the D3.js library to visualize US immigration data. Most importantly though, I have learned that creating projects like these is not just what I want to do as a career, but it’s something I really love.<br><br>Now here I am with a newly discovered love of coding and a dream to work at a great Portland tech company.  I’d be thrilled at the possibility of learning more about Sitecast and I think that my previous experience, along with a passion for helping people connect to technology, will make me a successful intern.  Thank you for looking at my application and I am looking forward to hearing from you.</p>
             <p class="pull-right"><span class="blue-text">March 12th, 2017</span></p>
-            <a href="#" class='btn pull-left'>Add a Comment</a>
+            <button class='btn pull-left add-form' onclick="addForm()">Add a Comment</button>
+
+            <div class="comment-form">
+              <form class="text-left">
+                <br><br>
+                <label for="ueser-name">User Name</label>
+                <input type="text" class="form-control" id="user-name" placeholder="user name">
+                <label for="Comment">Enter Comment</label>
+                <textarea class="form-control" rows="3" id="comment-text" placeholder="comment"></textarea><br>
+              </form>
+              <button class='btn pull-left' onclick="postComment()">Post Comment</button>
+            </div>
+            <br><br><br>
+            <div class="comments text-left"></div>
           </div>
         </div>
+        <hr>
       </div>
     </div>
 
@@ -66,7 +80,20 @@
             <h2 class="text-center">Post About Working in Teams</h2><br>
             <p class="text-justify">I used to work in the quality control department at a scientific instrumentation company called ForteBio. We had a small group of three people, including me, and during my time there we became a very tight-knit team. Each of us had strengths that really complimented each other. One particular time when this really paid off, was when the company was launching a new product. Our group was responsible for developing a test protocol and getting everything ready for manufacturing ramp up. I was the member of the team that was really hands-on with experimenting and problem solving. This was helpful because I was able to find some potential issues with the product and develop new methods for testing performance. My approach was very well complemented by other members of my team, who were experts at the organizational and documentation side of the project. I’m happy to say that product was launched successfully and I’m really proud of the contribution that we made to the project.<br><br>I really enjoy working together with other people. Not only do my individual strengths compliment others, but having a teammate hold me accountable can really be motivating to do my best work. My ability to think about problems in a creative way can really be a strength in a group setting. However, this can be a weakness when structure is really important to a project. So having a teammate that compliments my style can really help push me to be better than I am by myself. Also, my personality is very relaxed and I rarely have problems getting along with other people. I really believe that any conflict can be resolved by calm and honest discussion.</p>
             <p class="pull-right"><span class="blue-text">March 10th, 2017</span></p>
-            <a href="#" class='btn pull-left'>Add a Comment</a>
+            <button class='btn pull-left add-form' onclick="addForm()">Add a Comment</button>
+
+            <div class="comment-form">
+              <form class="text-left">
+                <br><br>
+                <label for="ueser-name">User Name</label>
+                <input type="text" class="form-control" id="user-name" placeholder="user name">
+                <label for="Comment">Enter Comment</label>
+                <textarea class="form-control" rows="3" id="comment-text" placeholder="comment"></textarea><br>
+              </form>
+              <button class='btn pull-left' onclick="postComment()">Post Comment</button>
+            </div>
+            <br><br><br>
+            <div class="comments text-left"></div>
           </div>
         </div>
       </div>
